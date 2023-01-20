@@ -2,7 +2,7 @@
 ## Designing & Coding a Music Player App using Adobe XD and Android Studio. 
 
 ## Features of Android App:
-### 1) Fragments + RecyclerView
+### 1) Fragments + RecyclerView + Splash Screen + Dialog on Fragment
 ### 2) Play, Pause Music.
 ### 3) Shuffle + Loop + Skip to Next Song + Skip to Previous Song
 ### 4) Login + Register for Account, which were hardcoded

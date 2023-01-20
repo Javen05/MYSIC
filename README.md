@@ -23,7 +23,7 @@
 ### Runthrough - https://youtu.be/w5M4f3-2TZI  
 ### Usability Testing Procedure - https://mysicapp.netlify.app/  
 ### Compare progression of Versions - https://javenuxid.netlify.app/   
-### Incase Website is no longer up - https://xd.adobe.com/embed/b35b488f-7493-4917-aeec-77737a85fccd-e608/?fullscreen  
+### Direct Link to Final Version - https://xd.adobe.com/embed/b35b488f-7493-4917-aeec-77737a85fccd-e608/?fullscreen  
 
 ## Android MYSIC app showcase:  
 ### https://youtu.be/wIHEdzRLc6A  

@@ -4,21 +4,21 @@
 # Features of App:
 ## 1) Fragments + RecyclerView
 ## 2) Login + Register for Account, which were hardcoded:
-![image](https://user-images.githubusercontent.com/107395637/213604044-eed2242e-faa0-44c9-8202-af92d16c481a.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213604044-eed2242e-faa0-44c9-8202-af92d16c481a.png)
 ## 3) Persistent Light or Dark Mode (Changes colour scheme for pages)
-![image](https://user-images.githubusercontent.com/107395637/213604190-6f40285d-12c6-4ea8-b9a3-544762fd95aa.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213604190-6f40285d-12c6-4ea8-b9a3-544762fd95aa.png)
 ## 4) Library of Songs + Fixed Playlists (Add and Remove Songs)
-![image](https://user-images.githubusercontent.com/107395637/213604574-91bf0c96-0a1d-447a-b5bd-5d9b30c90733.png)
-![image](https://user-images.githubusercontent.com/107395637/213604671-45405ae8-ca50-4283-b3cf-f459ca545cd3.png)
-![image](https://user-images.githubusercontent.com/107395637/213604715-0c82f479-0d11-4a25-b5af-ea3c4b4547d9.png)
-![image](https://user-images.githubusercontent.com/107395637/213604753-e2c48884-8886-416c-87f8-2799617842d6.png)
-![image](https://user-images.githubusercontent.com/107395637/213604441-49609306-18aa-4ebb-a370-b06cc3fae151.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213604574-91bf0c96-0a1d-447a-b5bd-5d9b30c90733.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213604671-45405ae8-ca50-4283-b3cf-f459ca545cd3.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213604715-0c82f479-0d11-4a25-b5af-ea3c4b4547d9.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213604753-e2c48884-8886-416c-87f8-2799617842d6.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213604441-49609306-18aa-4ebb-a370-b06cc3fae151.png)
 ## 5) Search (Filter Results):
-![image](https://user-images.githubusercontent.com/107395637/213604885-fb2c120a-15a2-4ad8-8803-9ea3a9f4f290.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213604885-fb2c120a-15a2-4ad8-8803-9ea3a9f4f290.png)
 ## 6) Profile (Show Usrrname + Logout option)
-![image](https://user-images.githubusercontent.com/107395637/213604933-2df649ea-d829-40d6-bdf7-d4fb804be8ed.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213604933-2df649ea-d829-40d6-bdf7-d4fb804be8ed.png)
 ## 7) Offline Player (Songs are downloaded in App. Can play even without internet connection)
-![image](https://user-images.githubusercontent.com/107395637/213605175-426e2d43-23b0-4823-b4c6-8d16834f9247.png)
+## ![image](https://user-images.githubusercontent.com/107395637/213605175-426e2d43-23b0-4823-b4c6-8d16834f9247.png)
 
 
 <br>

@@ -1,6 +1,6 @@
 # Android-App-Development
 ## Designing & Coding an App using Adobe XD and Android Studio. 
-<br>
+
 ## ![image](https://user-images.githubusercontent.com/107395637/213604044-eed2242e-faa0-44c9-8202-af92d16c481a.png)
 ## ![image](https://user-images.githubusercontent.com/107395637/213604190-6f40285d-12c6-4ea8-b9a3-544762fd95aa.png)
 ## ![image](https://user-images.githubusercontent.com/107395637/213604574-91bf0c96-0a1d-447a-b5bd-5d9b30c90733.png)

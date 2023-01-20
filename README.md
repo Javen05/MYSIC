@@ -3,12 +3,14 @@
 
 ## Features of Android App:
 ### 1) Fragments + RecyclerView
-### 2) Login + Register for Account, which were hardcoded
-### 3) Persistent Light or Dark Mode (Changes colour scheme for pages)
-### 4) Library of Songs + Fixed Playlists (Add and Remove Songs)
-### 5) Search (Filter Results)
-### 6) Profile (Show Username + Logout option)
-### 7) Offline Player (Songs are downloaded in App. Can play even without internet connection)
+### 2) Play, Pause Music.
+### 3) Shuffle + Loop + Skip to Next Song + Skip to Previous Song
+### 4) Login + Register for Account, which were hardcoded
+### 5) Persistent Light or Dark Mode (Changes colour scheme for pages)
+### 6) Library of Songs + Fixed Playlists (Add and Remove Songs)
+### 7) Search (Filter Results)
+### 8) Profile (Show Username + Logout option)
+### 9) Offline Player (Songs are downloaded in App. Can play even without internet connection)
 
 ### ![image](https://user-images.githubusercontent.com/107395637/213604044-eed2242e-faa0-44c9-8202-af92d16c481a.png)
 ### ![image](https://user-images.githubusercontent.com/107395637/213604190-6f40285d-12c6-4ea8-b9a3-544762fd95aa.png)

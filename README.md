@@ -7,7 +7,7 @@
 ### 3) Persistent Light or Dark Mode (Changes colour scheme for pages)
 ### 4) Library of Songs + Fixed Playlists (Add and Remove Songs)
 ### 5) Search (Filter Results)
-### 6) Profile (Show Usrrname + Logout option)
+### 6) Profile (Show Username + Logout option)
 ### 7) Offline Player (Songs are downloaded in App. Can play even without internet connection)
 
 ### ![image](https://user-images.githubusercontent.com/107395637/213604044-eed2242e-faa0-44c9-8202-af92d16c481a.png)

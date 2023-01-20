@@ -13,7 +13,7 @@
 ### 9) Offline Player (Songs are downloaded in App. Can play even without internet connection)
 
 ### ![Screenshot (1232)](https://user-images.githubusercontent.com/107395637/213607770-79d7ebeb-3054-48d4-a7ee-18fc0afa2049.png)
-### ![Screenshot (1233)](https://user-images.githubusercontent.com/107395637/213607811-74651e7c-14fd-42b5-a236-3f223dde2ff5.png)
+![Screenshot (1233)](https://user-images.githubusercontent.com/107395637/213607811-74651e7c-14fd-42b5-a236-3f223dde2ff5.png)
 ### ![Screenshot (1235)](https://user-images.githubusercontent.com/107395637/213607648-233d35b1-e9f0-4aac-8cce-f99f6410631d.png)
 ### ![Screenshot (1234)](https://user-images.githubusercontent.com/107395637/213607670-8cf4071f-f7d4-4116-8ec8-dcd38edda854.png)
 ### ![Screenshot (1236)](https://user-images.githubusercontent.com/107395637/213607727-4277647e-5b8f-4949-8643-bcef9d0f580d.png)

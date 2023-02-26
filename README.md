@@ -1,4 +1,4 @@
-# MYSIC Full Code
+## MYSIC Full Code
 The code is messy and inconsistent (mix of hardcode + dynamic code + different implementations of similar stuff)
 as I was learning while coding.
 

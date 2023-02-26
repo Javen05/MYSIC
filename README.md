@@ -1,4 +1,4 @@
-##### Code in master branch
+#### Code in master branch
 
 ## Android-App-Development
 Designing & Coding a Music Player App using Adobe XD and Android Studio. 

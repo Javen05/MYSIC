@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".navigation.SettingsFragment">
+
+    <ImageView
+        android:id="@+id/scrollBG"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_marginTop="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/scroll_bg" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="320dp"
+        android:layout_height="436dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="46dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/btnToRadioPlayer"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@null"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0"
+                        app:srcCompat="@drawable/radio_player" />
+
+                    <TextView
+                        android:id="@+id/txtRadioPlayer"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Radio Player"
+                        android:textSize="15dp"
+                        app:layout_constraintTop_toBottomOf="@id/btnToRadioPlayer" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnToLibrary"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@null"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0"
+                        app:srcCompat="@drawable/song_list" />
+
+                    <TextView
+                        android:id="@+id/txtSongList"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="My Library"
+                        android:textSize="15dp"
+                        app:layout_constraintTop_toBottomOf="@id/btnToLibrary" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnToLikedList"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitCenter"
+                        android:padding="15dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0"
+                        app:srcCompat="@drawable/favourite_button"
+                        app:tint="@color/red"
+                        android:background="@drawable/searchview_bg" />
+
+                    <TextView
+                        android:id="@+id/txtToLikedList"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Liked List"
+                        android:textSize="15dp"
+                        app:layout_constraintTop_toBottomOf="@id/btnToPlaylist"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnToPlaylist2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0"
+                        app:srcCompat="@drawable/ic_launcher_foreground"
+                        android:background="@drawable/ic_launcher_background"/>
+
+                    <TextView
+                        android:id="@+id/txtPlaylist2"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Morning"
+                        android:textSize="15dp"
+                        app:layout_constraintTop_toBottomOf="@id/btnToPlaylist2" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/btnToPlaylist3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0"
+                        app:srcCompat="@drawable/ic_launcher_foreground"
+                        android:background="@drawable/ic_launcher_background"/>
+
+                    <TextView
+                        android:id="@+id/txtPlaylist3"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Afternoon"
+                        android:textSize="15dp"
+                        app:layout_constraintTop_toBottomOf="@id/btnToPlaylist"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/editablePlaylist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="136dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <ImageButton
+                        android:id="@+id/btnToPlaylist"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0"
+                        app:srcCompat="@drawable/ic_launcher_foreground"
+                        android:background="@drawable/ic_launcher_background"/>
+
+                    <TextView
+                        android:id="@+id/txtPlaylist"
+                        style="@style/TEXT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-black"
+                        android:gravity="center"
+                        android:text="Playlist"
+                        android:textSize="15dp"
+                        app:layout_constraintTop_toBottomOf="@id/btnToPlaylist2" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/san_marino_beach"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    style="@style/SCREEN"
+    android:background="@drawable/wallpaper"
+    android:id="@+id/main_bg">
+
+    <include layout="@layout/actionbar"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation">
+
+        <Switch
+            android:id="@+id/switchDarkMode"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:padding="9dp"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            android:enterFadeDuration="1000"
+            android:exitFadeDuration="1000" />
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#C890EC"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

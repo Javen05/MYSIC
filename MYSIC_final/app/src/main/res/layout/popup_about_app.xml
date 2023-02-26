@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/songbar">
+
+    <TextView
+        android:id="@+id/txtClose"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textColor="@color/purple_500"
+        android:textSize="35dp"
+        android:text="X"
+        android:fontFamily="sans-serif-black"
+        android:background="@drawable/searchview_bg"
+        android:gravity="center"
+        android:layout_gravity="end"
+        android:layout_margin="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="This Music App is created by Javen Lai as part of
+his Temasek Polytechnic project/assignment."
+        android:paddingLeft="25dp"
+        android:paddingRight="20dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="This app may never receive support or updates, and could
+be taken down at any given moment."
+        android:paddingLeft="25dp"
+        android:paddingRight="20dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="Your data may be analyzed and used for purposes such a
+research and improvements."
+        android:paddingLeft="25dp"
+        android:paddingRight="20dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="The Developer and MYSIC will not be responsible for
+causing any losses or damages from using this App."
+        android:paddingLeft="25dp"
+        android:paddingRight="20dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="This App is created solely for educational purposes, and not
+for commercial usage. Contact Developer for your
+copyrighted material(s) to be taken down if any."
+        android:paddingLeft="20dp"
+        android:paddingRight="25dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:layout_marginBottom="85dp"/>
+
+</LinearLayout>

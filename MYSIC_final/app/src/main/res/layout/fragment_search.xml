@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    //Title
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/san_marino_beach"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/scroll_bg"
+        android:backgroundTint="@color/black">
+
+    <SearchView
+        android:id="@+id/etSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/scroll_bg"
+        android:maxLength="20" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/libraryScrollBG"
+        android:layout_width="380dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/scroll_playlist_bg"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:rotationX="2">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="375dp"
+            android:layout_height="370dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="26dp"
+            android:rotationX="-1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/songCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song Count"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        style="@style/TEXT"
+        android:fontFamily="sans-serif-light"/>
+
+</LinearLayout>

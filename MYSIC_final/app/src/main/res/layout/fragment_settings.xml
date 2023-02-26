@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.SettingsFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/san_marino_beach"
+        android:gravity="center"
+        android:text="Settings"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:paddingTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="140dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical"
+                android:text="Night Mode"
+                android:textFontWeight="750"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="125dp"
+                android:layout_height="match_parent"/>
+
+            <Switch
+                android:id="@+id/switchNightMode"
+                android:onClick="customNightMode"
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleX="1.8"
+                android:scaleY="1.8" />
+
+        </LinearLayout>
+
+            <Space
+              android:layout_width="match_parent"
+              android:layout_height="25dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical"
+                android:text="About App"
+                android:textFontWeight="750"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="145dp"
+                android:layout_height="match_parent"/>
+
+            <ImageButton
+                android:id="@+id/btnShowPopup"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/info"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <TextView
+                style="@style/TEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="50sp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical"
+                android:text="Close App"
+                android:textFontWeight="750"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="145dp"
+                android:layout_height="match_parent"/>
+
+            <Switch
+                android:onClick="exitApp"
+                android:layout_marginRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleX="1.8"
+                android:scaleY="1.8" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

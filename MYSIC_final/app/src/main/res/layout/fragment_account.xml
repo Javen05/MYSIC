@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".navigation.SettingsFragment">
+
+    <ImageView
+        android:id="@+id/imgProfilePic"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/account_bg" />
+
+    <TextView
+        android:id="@+id/txtUsername"
+        style="@style/TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:text="user"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/txtPlaylistCount"
+        style="@style/TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Playlists: 2"
+        android:textSize="21dp"
+        android:layout_marginTop="450dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:id="@+id/txtSongCount"
+        style="@style/TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Songs:"
+        android:layout_marginTop="480dp"
+        android:textSize="21dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="389dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/san_marino_beach"
+        android:gravity="center"
+        android:text="Account"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:paddingTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center"
+        android:background="@drawable/searchview_bg"
+        android:padding="2dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnToLogout"
+            android:layout_width="245dp"
+            android:layout_height="50dp"
+            android:background="@drawable/searchview_bg"
+            android:text="Log Out"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#707070" />
+
+    </LinearLayout>
+
+
+    //Logout interface
+
+    <LinearLayout
+        android:id="@+id/logoutInterface"
+        android:visibility="invisible"
+        android:layout_width="650dp"
+        android:translationY="120dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/searchview_bg"
+        android:backgroundTint="#000000"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/searchview_bg"
+        android:backgroundTint="#707070"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out?"
+            android:textSize="40dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/white"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            android:layout_width="245dp"
+            android:layout_height="50dp"
+            android:background="@drawable/searchview_bg"
+            android:text="Yes"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#fff" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDeclineLogout"
+            android:layout_width="245dp"
+            android:layout_height="50dp"
+            android:background="@drawable/searchview_bg"
+            android:text="No"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.LoginActivity"
+    android:background="@drawable/login"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:text="Login:"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:padding="2dp">
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:autofillHints="name"
+                android:background="@color/white"
+                android:maxLength="12"
+                android:gravity="center"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/black"
+            android:padding="2dp">
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:maxLength="20"
+                android:gravity="center"
+                android:hint="Password"
+                android:textColorHint="#707070"
+                android:inputType="textPassword" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/searchview_bg"
+            android:padding="2dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogin"
+                android:layout_width="245dp"
+                android:layout_height="50dp"
+                android:background="@drawable/searchview_bg"
+                android:text="Enter"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:backgroundTint="#7CEE93" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:text="New User?"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSignup"
+            android:layout_width="245dp"
+            android:layout_height="50dp"
+            android:background="@drawable/searchview_bg"
+            android:text="Create Account"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            app:backgroundTint="#000000" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bright_blue"
+            android:padding="2dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnGuestLogin"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@drawable/songbar"
+                android:text="Continue as Guest"
+                android:textAllCaps="false"
+                android:textColor="@color/bright_blue"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                app:backgroundTint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8" />
+
+    </LinearLayout>
+
+</RelativeLayout>

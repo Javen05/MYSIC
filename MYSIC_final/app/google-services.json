@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "849223025672",
+    "project_id": "mysic-login",
+    "storage_bucket": "mysic-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849223025672:android:97f536c4886ce47ad5fdbd",
+        "android_client_info": {
+          "package_name": "sg.edu.tp.mysicmysic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849223025672-e7nvogqvmkgb52f58ol5jk3mkh06gms4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkBx8fMJG45KJNbIlWiqqiFycXQJMz-3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849223025672-e7nvogqvmkgb52f58ol5jk3mkh06gms4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

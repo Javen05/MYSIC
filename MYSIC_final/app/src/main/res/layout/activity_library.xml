@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LibraryActivity"
+    android:background="@drawable/wallpaper2">
+
+    //actionbar
+    <include
+        android:id="@+id/include"
+        layout="@layout/actionbar2" />
+
+    //Title
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/san_marino_beach"
+        android:gravity="center"
+        android:text="Library"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:paddingTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="375dp"
+            android:layout_height="460dp"
+            android:layout_gravity="center"
+            android:background="@drawable/scroll_playlist_bg"
+            android:orientation="vertical">
+
+
+            <ScrollView
+                android:layout_width="375dp"
+                android:layout_height="415dp"
+                android:layout_marginTop="21dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="12dp">
+
+                    //S1001
+
+                    <LinearLayout
+                        android:id="@+id/S1001"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/songbar"
+                        android:onClick="handleSelection"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/cover_art" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Invisible"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                app:srcCompat="@drawable/cover_art" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Zeus X Crona"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    //S1002
+
+                    <LinearLayout
+                        android:id="@+id/S1002"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/songbar"
+                        android:onClick="handleSelection"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/mundian_to_bach_ke" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Symbolism"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                app:srcCompat="@drawable/cover_art" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Electro-Light"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    //S1003
+
+                    <LinearLayout
+                        android:id="@+id/S1003"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/songbar"
+                        android:onClick="handleSelection"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/jay_chou" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Royalty"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                app:srcCompat="@drawable/cover_art" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Maestro Chives, Egzod, Neoni"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    //S1004
+
+                    <LinearLayout
+                        android:id="@+id/S1004"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/songbar"
+                        android:onClick="handleSelection"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/glimpse_of_us" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Phoenix"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                app:srcCompat="@drawable/cover_art" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Halvorsen, Netrum"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    //S1005
+
+                    <LinearLayout
+                        android:id="@+id/S1005"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/songbar"
+                        android:onClick="handleSelection"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/red_scarf" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Take It Easy"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                app:srcCompat="@drawable/cover_art" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="BVRNOUT, Mia Vaile"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    //S1006
+
+                    <LinearLayout
+                        android:id="@+id/S1006"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/songbar"
+                        android:onClick="handleSelection"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ren_ran" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Faster"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                app:srcCompat="@drawable/cover_art" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Razihel"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    //S1007
+
+                    <LinearLayout
+                        android:id="@+id/S1007"
+                        android:layout_width="340dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/songbar"
+                        android:onClick="handleSelection"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="65dp"
+                            android:layout_margin="5dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/those_bygone_years" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-black"
+                                android:text="Rise Up"
+                                android:textColor="@color/black"
+                                android:textSize="24sp"
+                                app:srcCompat="@drawable/cover_art" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:text="Egzod, Veronica Bravo, M.I.M.E"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/songCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Song Count"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        style="@style/TEXT"
+        android:fontFamily="sans-serif-light"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

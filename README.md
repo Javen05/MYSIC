@@ -32,12 +32,10 @@ Designing & Coding a Music Player App using Adobe XD and Android Studio.
  https://youtu.be/wIHEdzRLc6A  
 
 ## Reflection:
- With no prior experience to app designing or using music apps like Spotify,   
- My app concept was my purest idea for a Music Player App.
+ This was my first time designing an App and Coding.
 
  MYSIC went through many versions as it was relentlessly refined throughout  
  10+ Usability Testers, stretched over the course of ~2 months.  
-
- Java and Android Studio had been an unpleasaning mix in general, especially when it is my first programming language.  
- It took me an intensive month to build the App.   
+ 
+ It took me an intensive month to code out the Android App using Java and it was unpleasaning.
  Unfortunately, I was unable to recreate the complete concept of MYSIC as an Android App.

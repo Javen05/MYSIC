@@ -1,9 +1,11 @@
 > Code in master branch
 
-## Android-App-Development
+## Android App Development
 Designing & Coding a Music Player App using Adobe XD and Android Studio. 
 
-## Features of Android App
+This project was made for Temasek Polytechnic's UXID and CDEV modules.
+
+## Features of Android App:
 
  1) Fragments + RecyclerView + Splash Screen + Dialog on Fragment
  2) Play, Pause Music.
